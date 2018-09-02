@@ -1,2 +1,1 @@
-# resource
-图片或者文件
+`file store`
