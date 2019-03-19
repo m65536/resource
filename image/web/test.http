@@ -24,7 +24,7 @@ curl -H "Content-Type:application/json" -XPUT 'http://localhost:8083/connectors/
     "database.history.kafka.bootstrap.servers": "localhost:9092",
     "database.history.kafka.topic": "dbhistory.trade_order",
     "decimal.handling.mode": "string",
-     "table.whitelist": "t_order.t_order_item",
+     "table.whitelist": "db_order.t_order_item",
     "database.history.store.only.monitored.tables.ddl":"true",
     "database.history.skip.unparseable.ddl":"true"
 }'
